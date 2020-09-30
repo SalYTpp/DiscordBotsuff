@@ -1,0 +1,5 @@
+
+client.on("ready", () => { //When bot is ready
+  console.log("type anything here or just put Ready")
+  client.user.setActivity("Put anything here like a message", { type:'PLAYING' }); //It will set status :)
+})
